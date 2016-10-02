@@ -5,24 +5,24 @@ public class hw03_105021013 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       Scanner src=new Scanner(System.in);
-      System.out.println("¶Ë§∏¶~:");
+      System.out.println("Ë•øÂÖÉÂπ¥");
 		int a = src.nextInt();
 		
 		if(a%400==0)
 		{
-			System.out.println("∂|¶~");
+			System.out.println("ÈñèÂπ¥");
 		}
 		else if(a%100==0)
 		{
-			System.out.println("•≠¶~");
+			System.out.println("Âπ≥Âπ¥");
 		}
 		else if(a%4==0)
 		{
-			System.out.println("∂|¶~");
+			System.out.println("ÈñèÂπ¥");
 		}
 		else
 		{
-			System.out.println("•≠¶~");
+			System.out.println("Âπ≥Âπ¥");
 		}
 	}
 
